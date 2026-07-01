@@ -27,6 +27,22 @@ TTS — Edge-TTS (Microsoft neural voices, free, no API key)
 
 Tool Orchestration — FastMCP (Model Context Protocol)
 
+Project structure:
+
+voicemail-ai/
+├── main.py              #Full conversation loop
+├── agent.py             # LLM reasoning + tool-calling loop
+├── mcp_server.py        # Registers tools via FastMCP
+├── config.py            # Loads api's from .env
+├── contacts.csv         
+├── voice/
+│   ├── stt.py           # Speech to text
+│   └── tts.py           # Text to speech
+└── tools/
+    ├── search_tool.py   # Web search
+    ├── email_tool.py    # Email sending
+    └── contact_tool.py  # Contact lookup + disambiguation
+
 
 
 Web Search — Answer API (free, no key)
