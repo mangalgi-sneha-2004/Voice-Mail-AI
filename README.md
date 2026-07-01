@@ -29,7 +29,7 @@ Tool Orchestration — FastMCP (Model Context Protocol)
 
 
 
-Web Search — DuckDuckGo Instant Answer API (free, no key)
+Web Search — Answer API (free, no key)
 
 Email — Gmail SMTP
 
