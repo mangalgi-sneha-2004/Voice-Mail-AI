@@ -27,6 +27,8 @@ TTS — Edge-TTS (Microsoft neural voices, free, no API key)
 
 Tool Orchestration — FastMCP (Model Context Protocol)
 
+
+
 Web Search — DuckDuckGo Instant Answer API (free, no key)
 
 Email — Gmail SMTP
